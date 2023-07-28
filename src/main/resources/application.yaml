@@ -1,6 +1,7 @@
-server:
-  port: 9300
-
 spring:
   application:
     name: elcarim-hello-world
+
+appengine:
+  appId: elcarim
+  sdkVersion: JAVA11
