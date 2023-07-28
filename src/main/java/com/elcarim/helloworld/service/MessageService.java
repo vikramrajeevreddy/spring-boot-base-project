@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class MessageService {
 
     public Message messageBuilder(){
-        String mes = "Hello Mira, I am testing the trigger";
+        String mes = "Hello Mira, I am testing v5";
         Message message = new Message();
         message.setMessage(mes);
         return message;
